@@ -36,10 +36,11 @@ make run
 ## Notes
 
 * `master` branch is auto-deployed to Heroku.
-* We use the [Probot: Configurer plugin][configurer] to allow repo settings to be
-  changes via pull request.
+* We use the [Probot: Configurer plugin][configurer] to allow repo
+  settings via pull request using [`.github/config.yml`][].
 * We use a python package management strategy [explained best by Kenneth
   Reitz][pip-strat]. (A little outdated, but works fine.)
 
    [configurer]: https://github.com/apps/configurer
+   [`.github/config.yml`]: .github/config.yml
    [pip-strat]: https://www.kennethreitz.org/essays/a-better-pip-workflow
