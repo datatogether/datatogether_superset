@@ -1,6 +1,6 @@
 # Superset for DataTogether
 
-[**Heroku**][] is a platform for easily hosting apps. [**Superset**][] is a
+**[Heroku][]** is a platform for easily hosting apps. **[Superset][]** is a
 modern, enterprise-ready business intelligence web application.
 
    [Heroku]: https://www.heroku.com/about
@@ -14,7 +14,7 @@ visualizing live project data in dashboards.
 * virtualenvwrapper.sh (recommended)
 * Superset's [OS dependencies][]
 
-   [OS dependecies]: https://superset.incubator.apache.org/installation.html#os-dependencies
+   [OS dependencies]: https://superset.incubator.apache.org/installation.html#os-dependencies
 
 ## Usage
 
