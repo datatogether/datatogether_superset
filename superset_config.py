@@ -27,3 +27,4 @@ WTF_CSRF_ENABLED = True
 
 # Set this API key to enable Mapbox visualizations
 MAPBOX_API_KEY = os.environ.get('MAPBOX_API_KEY', '')
+PUBLIC_ROLE_LIKE_GAMMA = True
