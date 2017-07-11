@@ -13,7 +13,7 @@ SUPERSET_WORKERS = 1
 # Flask App Builder configuration
 #---------------------------------------------------------
 # Your App secret key
-SECRET_KEY = os.environ.get('SECRET_KEY'], '\2\1thisismyscretkey\1\2\e\y\y\h')
+SECRET_KEY = os.environ.get('SECRET_KEY', '\2\1thisismyscretkey\1\2\e\y\y\h')
 
 # The SQLAlchemy connection string to your database backend
 # This connection defines the path to the database that stores your
