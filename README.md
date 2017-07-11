@@ -1,7 +1,9 @@
 # Superset for DataTogether
 
-**[Heroku][]** is a platform for easily hosting apps. **[Superset][]** is a
-modern, enterprise-ready business intelligence web application.
+**[Heroku][]** is a platform for easily hosting web apps.
+
+**[Superset][]** is a modern, enterprise-ready business intelligence web
+application.
 
    [Heroku]: https://www.heroku.com/about
    [Superset]: https://medium.com/airbnb-engineering/caravel-airbnb-s-data-exploration-platform-15a72aa610e5
