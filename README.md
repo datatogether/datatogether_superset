@@ -14,6 +14,7 @@ visualizing live project data in dashboards.
 ## Requirements
 
 * virtualenvwrapper.sh (recommended)
+* Heroku CLI (recommended)
 * Superset's [OS dependencies][]
 
    [OS dependencies]: https://superset.incubator.apache.org/installation.html#os-dependencies
@@ -31,6 +32,13 @@ make setup
 # Running
 workon datatogether-superset
 make run
+```
+
+```
+# Heroku setup
+heroku addons:create heroku-postgresql
+heroku config:set SECRET_KEY=`openssl rand -hex 36
+heroku config:set MAPBOX_API_KEY=<acquired-key>
 ```
 
 ## Notes

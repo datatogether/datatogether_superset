@@ -1,1 +1,2 @@
 superset
+psycopg2
