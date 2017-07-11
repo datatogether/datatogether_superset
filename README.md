@@ -1,7 +1,13 @@
 # Superset for DataTogether
 
-This is a Heroku-hosted Superset instance for visualizing data from the
-DataTogether project.
+[**Heroku**][] is a platform for easily hosting apps. [**Superset**][] is a
+modern, enterprise-ready business intelligence web application.
+
+   [Heroku]: https://www.heroku.com/about
+   [Superset]: https://medium.com/airbnb-engineering/caravel-airbnb-s-data-exploration-platform-15a72aa610e5
+
+This project is for hosting DataTogether's Superset instance on Heroku, for
+visualizing live project data in dashboards.
 
 ## Requirements
 
@@ -24,3 +30,11 @@ make setup
 workon datatogether-superset
 make run
 ```
+
+## Notes
+
+* `master` branch is auto-deployed to Heroku.
+* We use the [Probot: Configurer plugin][configurer] to allow repo settings to be
+  changes via pull request.
+
+   [configurer]: https://github.com/apps/configurer
